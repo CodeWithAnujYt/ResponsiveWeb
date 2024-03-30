@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="Js.js"></script>
+</head>
+<body class="body">
+
+    <div class="navbar">
+        <img src="web-of-anuj2.png" alt="Logo" class="logo">
+		<a href="#" onclick="showContent('home')">Home</a>
+        <!-- <a href="#" onclick="showContent('Work')">Work</a> -->
+        <a href="#" onclick="showContent('About')">About</a>
+        <a href="#" onclick="showContent('Contact')">Contact</a>
+        </div>
+        <div id="home" class="content-section active">
+            <main class="container">
+                <p class="Hello">Hello 👋 I'm</p>
+                <section class="animation">
+                  <div class="first"><div>Anuj Kumar Gupta</div></div>
+                  <div class="second"><div>Web Disigner</div></div>
+                  <div class="third"><div>Web Developer</div></div>
+                </section>
+              </main>
+              <div class="Info-height">
+              <p class="Info">
+                A <span> FrontEnd Developer</span> with a dream to become a successful <span>Full Stack Developer.</span><br>
+              </p>
+              </div>
+            <div class="Border-Me"></div>
+            <div class="Border">
+            <img src="MyImage.png" class="Me">
+            </div>
+         <div class="buttons">
+         <button class="about-btn" onclick="showContent('About')">About Me</button>
+          <button class="contact-btn" onclick="showContent('Contact')">Contact Me</button>
+      </div>
+      </div>
+
+
+         
+
+
+         <!-- <div id="Work" class="content-section">
+         </div> -->
+         <div id="About" class="content-section">
+
+          <div class="about-container">
+            <h2>About Me</h2>
+            <hr>
+
+
+
+
+            <div class="whole-circle">
+            <div class="circle1"></div>
+              <div class="circle2"></div>
+                <div class="circle3"></div>
+                </div>
+
+
+
+
+
+
+
+
+            <div class="about-content">
+                <p>
+                    Hello there! My name is Anuj Kumar Gupta, and I'm currently a high school student residing in <span class="highlight">Uttar Pradesh</span>, India.
+                </p>
+                <p>
+                    I have a profound passion for web design and development. Even amidst my school responsibilities, I dedicate my time to honing my skills in front-end and back-end development. My ultimate aspiration is to become a proficient <span class="highlight">full-stack developer</span>, capable of crafting seamless and innovative web experiences.
+                </p>
+                <p>
+                    Being a student, I find joy in exploring the realms of technology and design. It's fascinating how the digital world offers endless opportunities for creativity and problem-solving.
+                </p>
+                <p>
+                    Outside of academics, I'm an avid learner, constantly seeking to expand my knowledge and skills in the ever-evolving field of <span class="highlight">web development</span>.
+                </p>
+                <button class="contact-btn2" onclick="showContent('Contact')">Contact Me</button>
+            </div>
+        </div>
+
+          
+          <!-- <h2>HTML</h2>
+          <div class="percentageBorder">
+            <div class="Percentage"></div> -->
+
+
+          </div>
+         </div>
+         <div id="Contact" class="content-section">
+          <div class="contact-container">
+            <form action="https://api.web3forms.com/submit" method="POST" class="contact-left">
+                <div class="contact-left-title">
+                    <h2>Contact Me</h2>
+                    <hr>
+                </div>
+                <input type="hidden" name="access_key" value="63d7f50a-6b5e-4404-b27e-a3a8b9a2fad7">
+                <input type="text" name="name" placeholder="Your Name" class="contact-inputs" required>
+                <input type="email" name="email" placeholder="Your Email" class="contact-inputs" required>
+                <textarea name="message" placeholder="Your Message" required></textarea>
+                <button type="submit">Submit</button>
+            </form>
+        </div>
+         </div>
+</body>
+</html>
